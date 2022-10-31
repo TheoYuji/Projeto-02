@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../imagem/background.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 1954px 1099px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.imagemlogo{
+    height: 94px;
+    margin-left: 25px;
+}
+
+.inicio{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 100px;
+}
+
+.botão{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #737373;
+    
+}
+
+.botão-width{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0 ;
+}
+
+.botão-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0 0 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.botão-flex li{
+    list-style: none;
+}
+
+.listbotão{
+    width: 25%;
+    margin-top: 10px;
+}
+
+.linkbotão{
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+.linkbotão:hover{
+    text-decoration: underline;
+    
+}
+
+.login{
+    margin: 0 auto;
+    width: 314px;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 5px;
+    padding: 45px 68px 140px;
+}
+
+.login h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.entradatexto{
+    margin-bottom: 20px;
+}
+
+.entradatexto input{
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    border-radius:5px;
+    border: none;
+    outline: transparent;
+    text-indent: 18px;
+}
+
+.entradatexto input::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: #999;
+}
+
+.entradatexto input::-moz-placeholder {
+    font-size: 1rem;
+    color: #999;
+    text-indent: 40px;
+}
+
+.botãoentrar{
+    margin: 24px 0 12px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #e50914;
+    color:#f3f3f3;
+    border:none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.lembrese{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.cortexto{
+    color: #b3b3b3;
+}
+
+.corlink{
+    color: #737373;
+}
+
+.entrarlink{
+    color: white;
+    text-decoration: none;
+}
+
+.aviso{
+    display: none;
+    color:#e87c03;
+    margin-top: 0;
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
+
+.entrarlink:hover{
+    text-decoration: underline;
+}
+
+.novoaqui{
+    margin-bottom: 10px;
+    margin-top: 100px;
+    color: #8c8c8c;
+}
+
+.ajuda a{
+    text-decoration: none;
+}
+.ajuda a:hover{
+    text-decoration: underline;
+}
+
+.proteção{
+    font-size: 0.8rem;
+    color: #8c8c8c;
+}
+
+.proteção a{
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+.proteção a:hover{
+    text-decoration: underline;
+}
+
+.tellink{
+    text-decoration: none;
+    color: #757575;
+}
+
+.tellink:hover{
+    text-decoration: underline;
+}
+
+.lingua{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBoZWlnaHQ9IjUwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iNTAiIHdpZHRoPSI1MCIvPjxwb2x5Z29uIHN0cm9rZT0id2hpdGUiICBwb2ludHM9IjQ3LjI1LDE1IDQ1LjE2NCwxMi45MTQgMjUsMzMuMDc4IDQuODM2LDEyLjkxNCAyLjc1LDE1IDI1LDM3LjI1ICIvPjwvc3ZnPg==);
+    background-size: 12px;
+    background-position-x: calc(100% - 7px);
+    background-position-y: calc(100% - 14px);
+    background-repeat: no-repeat;
+    background-color: #000;
+    color:#757575;
+    padding: 15px 26px 15px 15px;
+    margin: 40px 0;
+    font-size: 0.9rem;
+    min-height: 40px;
+    border: 1px solid #333;
+}
+
+.lingua option{
+    padding-left: 10px; 
+}
+
+@media screen and (max-width: 740px){
+    body{
+        background: black;
+    }
+
+    .imagemlogo {
+        margin-left: 22px;
+    }
+
+    .login{
+        padding: 0 10px 0 10px;
+        width: 100%;
+    }
+
+    .entrar{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .botão {
+        border-top: 1px solid #737373;
+    }
+
+    .inicio{
+        padding-bottom: 93px;
+    }
+
+    .listbotão{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .listbotão{
+        width: 50%;
+    }
+}
+
